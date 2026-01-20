@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.bg{
+  background: #F5F3F4;
+}
 nav{
   display: flex;
   align-items: center;
@@ -33,4 +36,40 @@ ul button{
   color: white;
   background: black;
   border-radius: 10px;
+}
+
+
+main{
+  display: flex;
+  justify-content: start;
+  padding: 100px;
+  gap: 320px;
+}
+.main-left{
+  margin-top: 100px;
+}
+.main-left h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+
+}
+.main-left p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+}
+.main-left button{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  width: 140px;
+  height: 40px;
+  border-radius: 13px;
+  border: none;
+  background: #FFAE33;
+}
+main img{
+  margin-top: -30px;
 }
