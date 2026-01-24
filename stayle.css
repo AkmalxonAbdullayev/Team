@@ -121,6 +121,8 @@ color: grey;
 
 .left .yellow{
 width: 126px;
+height: 30px;
+background: yellow;
 
 }
 
@@ -147,5 +149,5 @@ justify-content: center;
 }
 
 footer .left h1{
-  
+
 }
