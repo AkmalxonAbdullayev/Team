@@ -36,8 +36,14 @@ ul button{
   color: white;
   background: black;
   border-radius: 10px;
+  cursor: pointer;
 }
 
+nav ul:nth-last-child(1){
+  
+  display: none;
+
+}
 
 main{
   display: flex;
@@ -69,7 +75,250 @@ main{
   border-radius: 13px;
   border: none;
   background: #FFAE33;
+  cursor: pointer;
 }
 main img{
   margin-top: -30px;
 }
+
+main img{
+  margin-top: -30px;
+}
+
+.container{
+  display: flex;
+align-items:center ;
+justify-content: center;    
+}
+.del-matni{
+align-items:center ;
+justify-content: center;        
+text-align: center;
+margin-top: 70px;
+}
+
+.del-matni h1{
+font-size: 50px;
+font-family: sans-serif;
+font-weight: 600;    
+}
+.del-matni p{
+font-size: 46px;
+font-family: sans-serif;
+font-weight: 300;
+color: grey;    
+}
+
+.container-1{
+display: flex;
+align-items: center;
+justify-content: space-around;  
+margin-top: 150px;  
+}
+
+.left{
+align-items: center;
+justify-content: center;    
+margin-top: 30px;
+}
+
+.left h1{
+font-size: 36px;
+font-family: sans-serif;
+font-weight: 600;        
+}
+.left p{
+font-size: 24px;
+font-family: sans-serif;
+font-weight: 300;
+color: grey;        
+}
+
+.left .yellow{
+width: 146px;
+height: 30px;
+background: yellow;
+border-radius: 5px;
+border: 1px solid white;
+cursor: pointer;
+font-weight: 600;
+
+}
+
+.left .pink{
+width: 146px;
+height: 30px;
+background: pink;
+border-radius: 5px;
+border: 1px solid white; 
+cursor: pointer;
+font-weight: 600; 
+}
+
+.right{
+display: flex;
+align-items: center;
+justify-content: center;    
+}
+
+.right img{
+width: 500px;
+height: 550px;    
+}
+
+.bg2{
+  background: #F9F9F9;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+
+}
+.Gitpod {
+  margin-top: 60px;
+}
+.Gitpod h1{
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.Gitpod p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+  line-height: 30px;
+}
+
+
+
+.Developer {
+  margin-top: 60px;
+}
+.Developer h1{
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.Developer p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+  line-height: 30px;
+}
+
+
+.Company {
+  margin-top: 60px;
+}
+.Company h1{
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.Company p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+  line-height: 30px;
+}
+.Legal {
+  margin-top: 60px;
+}
+.Legal h1{
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.Legal p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+  line-height: 30px;
+}
+
+@media only screen and (max-width:400px){
+   
+  .bg{
+    width: 400px;
+  }
+
+nav ul:nth-child(2){
+  display: none;
+  
+}
+nav ul:nth-child(3){
+  display: none;
+
+}
+nav ul:nth-child(4){
+  display: block;
+}
+
+main {
+  margin-top: -150px;
+  flex-direction: column;
+}
+
+main img{
+  margin-top: -240px;
+}
+
+.container{
+  margin-top: -100px;
+}
+.del-matni h1{
+  font-size: 22px;
+}
+
+.del-matni p{
+  font-size: 14px;
+}
+.container-1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.left h1{
+  font-size: 22px;
+}
+.left p{
+  font-size: 14px;
+}
+
+.right img{
+  width: 340px;
+  height: 340px;
+  margin-top: 50px;
+}
+
+
+.main-left{
+  text-align: center;
+}
+.main-left h1{
+  font-size: 23px;
+  
+}
+
+
+
+.container-1 {
+  flex-direction: column;
+}
+
+
+footer{
+  flex-direction: column;
+  text-align: center;
+  height: 1100px;
+}
+
+}
+
+
