@@ -130,8 +130,9 @@ border: 1px solid white;
 .left .pink{
 width: 126px;
 height: 30px;
-background: yellow;
-;  
+background: pink;
+border-radius: 5px;
+border: 1px solid white;  
 }
 
 .right{
@@ -156,5 +157,14 @@ justify-content: center;
 }
 
 footer .left h1{
+font-size: 35px;
+font-family: sans-serif;
+font-weight: 500;
+}
 
+
+footer .left a{
+color: #12100CB2;
+font-size: 20px;
+text-decoration: none;
 }
