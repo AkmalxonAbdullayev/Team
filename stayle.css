@@ -1,0 +1,170 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;    
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  height: 100px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+ul a{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+  text-decoration: none;
+}
+ul button{
+  width: 80px;
+  height: 32px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  background: black;
+  border-radius: 10px;
+  border: none;
+}
+
+main{
+  display: flex;
+  justify-content: start;
+  padding: 100px;
+  gap: 320px;
+}
+.main-left{
+  margin-top: 100px;
+}
+.main-left h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+
+}
+.main-left p{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #12100CB2;
+}
+.main-left button{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  width: 140px;
+  height: 40px;
+  border-radius: 13px;
+  border: none;
+  background: #FFAE33;
+}
+main img{
+  margin-top: -30px;
+}
+
+.container{
+align-items:center ;
+justify-content: center;    
+}
+.del-matni{
+align-items:center ;
+justify-content: center;        
+text-align: center;
+margin-top: 70px;
+}
+
+.del-matni h1{
+font-size: 50px;
+font-family: sans-serif;
+font-weight: 600;    
+}
+.del-matni p{
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 300;
+color: grey;    
+}
+
+.container-1{
+display: flex;
+align-items: center;
+justify-content: space-around;    
+}
+
+.left{
+align-items: center;
+justify-content: center;    
+margin-top: 30px;
+}
+
+.left h1{
+font-size: 50px;
+font-family: sans-serif;
+font-weight: 600;        
+}
+.left p{
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 300;
+color: grey;        
+}
+
+.left .yellow{
+width: 126px;
+height: 30px;
+background: yellow;
+border-radius: 5px;
+border: 1px solid white;
+}
+
+.left .pink{
+width: 126px;
+height: 30px;
+background: pink;
+border-radius: 5px;
+border: 1px solid white;  
+}
+
+.right{
+display: flex;
+align-items: center;
+justify-content: center;    
+}
+
+.right img{
+width: 500px;
+height: 550px;    
+}
+
+footer{
+align-items: center;
+justify-content: center;  
+}
+
+footer .left{
+align-items: center;
+justify-content: center;  
+}
+
+footer .left h1{
+font-size: 35px;
+font-family: sans-serif;
+font-weight: 500;
+}
+
+
+footer .left a{
+color: #12100CB2;
+font-size: 20px;
+text-decoration: none;
+}
